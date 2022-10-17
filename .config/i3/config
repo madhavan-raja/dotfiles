@@ -416,3 +416,9 @@ exec_always --no-startup-id xrandr --output DP-4 --mode 2560x1600 --rate 165
 exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/gruv-4.jpg
 exec_always --no-startup-id sh ~/.config/polybar/launch.sh
 exec_always --no-startup-id picom
+
+exec_always --no-startup-id xinput set-prop 20 "libinput Tapping Enabled" 1
+exec_always --no-startup-id xinput set-prop 20 "libinput Natural Scrolling Enabled" 1
+exec_always --no-startup-id xinput set-prop 20 "libinput Accel Speed" 0.5
+exec_always --no-startup-id xinput set-prop 20 "libinput Scrolling Pixel Distance" 5
+exec_always --no-startup-id xinput set-prop 13 "libinput Tapping Enabled" -0.6
